@@ -1,0 +1,39 @@
+reflar-polls:
+  admin:
+    permissions:
+      moderate: Editar & remover enquentes
+      start: Iniciar uma enquente
+      vote: Votar nas enquetes
+      self_edit: Permite que os usuários editem suas próprias enquetes
+  forum:
+    no_permission: Você não tem permissão para votar
+    poll_ended: Esta enquete terminou
+    days_remaining: "Enquete termina em {time}"
+    public_poll: Ver votos
+    votes_modal:
+      title: Votos
+    modal:
+      submit: Enviar
+      no_voters: Sem votos
+      switch: Permitir que as pessoas vejam quem votou
+      min: Você deve incluir no mínimo 2 respostas
+      max: Você pode ter no máximo 10 respostas
+      include_question: Você deve incluir uma pergunta
+      date_placeholder: Data final da enquete(opcional)
+      answer_placeholder: Resposta
+      add: Adicionar uma opção
+      question_placeholder: Questão
+      add_title: adicionar uma enquete
+      edit_title: Editar enquete
+      answers: Respostas
+    moderation:
+      edit: Editar enquete
+      delete: Remover enquete
+      delete_confirm: Tem certeza de que deseja excluir esta enquete?
+    composer_discussion:
+      add_poll: Add enquete
+      edit: => reflar-polls.forum.moderation.edit
+    tooltip:
+      votes: votos
+      vote: voto
+      badge: Enquete
